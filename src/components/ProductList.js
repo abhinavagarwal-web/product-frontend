@@ -8,7 +8,7 @@ const ProductsList = () => {
   const [filters, setFilters] = useState({ minPrice: '0', maxPrice: '5000', color: '', size: '', search: '' });
 
   useEffect(() => {
-    axios.get('http://localhost:8000/products')
+    axios.get('https://ecom-project-azure.vercel.app/products')
       .then(response => {
         setProducts(response.data);
         setFilteredProducts(response.data);
