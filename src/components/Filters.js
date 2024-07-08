@@ -78,8 +78,8 @@ const Filters = ({ filters, setFilters }) => {
           className="w-full p-2 border border-gray-300 rounded"
         >
           <option value="">All</option>
-          <option value="red">Red</option>
-          <option value="blue">Blue</option>
+          <option value="Red">Red</option>
+          <option value="Blue">Blue</option>
           <option value="white">White</option>
           <option value="Black">Black</option>
           <option value="Yellow">Yellow</option>
